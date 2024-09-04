@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="img" href="assets/logo.png">
+    <title>Encanto Lingerie - Loja de Lingerie</title>
+</head>
+<body>
+   
+    <!-- Cabeçalho -->
+    <!-- Cabeçalho -->
+<header class="header__container">
+    <div class="logo">
+    <img src="assets/logo.png" alt="Logo Lingerie" class="img-fluid">
+    <h1 class="logo-text"></h1>
+</div>
+
+    <button class="menu-toggle" id="menu-toggle">
+        <i class="ri-menu-line"></i>
+    </button>
+    <nav class="main-nav" id="main-nav">
+        <ul id="nav-list">
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="social-icons">
+                <a href="#" class="social-icon"><i class="ri-facebook-line"></i></a>
+                <a href="#" class="social-icon"><i class="ri-instagram-line"></i></a>
+                <a href="#" class="social-icon"><i class="ri-pinterest-line"></i></a>
+                <a href="#" class="social-icon"><i class="ri-twitter-line"></i></a>
+            </div>
+    </nav>
+    <a href="#produtos" class="shop-btn">Compre Agora</a>
+</header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Seção Hero -->
+        <section class="hero">
+             <div class="rose-petals"></div>
+            <div class="container text-center">
+                <h1 class="animated-text">Elegância e Conforto em Cada Detalhe</h1>
+                <p class="animated-paragraph">Descubra nossa coleção exclusiva de lingerie.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Seção Sobre Nós -->
+    <section class="sobre" id="sobre">
+        <div class="container text-center">
+            <div class="sobre__content">
+                <img src="assets/sobre-nos-lingerie.png" alt="Sobre Nós" class="sobre__imagem">
+                <div class="sobre__texto">
+                    <h2>Sobre Nós</h2>
+                    <p>Com uma vasta experiência no mercado, oferecemos lingerie que combina elegância, conforto e estilo. Cada peça é cuidadosamente selecionada para proporcionar a melhor experiência a você.</p>
+                    <a href="#mais-info" class="saiba-mais-btn">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Produtos -->
+    <section class="produtos" id="produtos">
+        <div class="container text-center">
+            <h2>Nossos Produtos</h2>
+            <p class="animated-paragraph">Explore nossa coleção de lingerie desenhada para realçar sua beleza natural.</p>
+            <div class="produtos__grid">
+                <div class="produto-item">
+                    <img src="assets/produto1.png" alt="Produto 1">
+                    <h3>Conjunto de Renda</h3>
+                    <p>Elegante conjunto de renda disponível em várias cores.</p>
+                    <a href="#" class="comprar-btn">Comprar Agora</a>
+                </div>
+                <div class="produto-item">
+                    <img src="assets/produto2.png" alt="Produto 2">
+                    <h3>Bodysuit Sensual</h3>
+                    <p>Bodysuit ajustável que valoriza suas curvas.</p>
+                    <a href="#" class="comprar-btn">Comprar Agora</a>
+                </div>
+                <div class="produto-item">
+                    <img src="assets/produto3.png" alt="Produto 3">
+                    <h3>Baby Doll de Seda</h3>
+                    <p>Conforto e estilo para suas noites.</p>
+                    <a href="#" class="comprar-btn">Comprar Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Galeria -->
+    <section class="galeria" id="galeria">
+        <div class="container text-center">
+            <h2>Galeria</h2>
+            <p>Veja algumas de nossas peças mais populares e como elas podem transformar seu visual.</p>
+            <div class="galeria__grid">
+                <div class="galeria__item">
+                    <img src="assets/galeria1.png" alt="Galeria 1">
+                </div>
+                <div class="galeria__item">
+                    <img src="assets/galeria2.png" alt="Galeria 2">
+                </div>
+                <div class="galeria__item">
+                    <img src="assets/galeria3.png" alt="Galeria 3">
+                </div>
+                <div class="galeria__item">
+                    <img src="assets/galeria4.png" alt="Galeria 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="contato" id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Tem alguma dúvida? Entre em contato conosco e teremos prazer em ajudar.</p>
+            <form action="mailto:lingerie@exemplo.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer__container">
+            <div class="footer__about">
+                <img src="assets/logo.png" alt="Logo Lingerie" class="footer__logo logo-pulse">
+                <h2>Encanto Lingerie</h2>
+                <p>Luxo e conforto em cada peça.</p>
+            </div>
+            <div class="footer__links">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer__social">
+                <h3>Redes Sociais</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="ri-facebook-line"></i></a>
+                    <a href="#" class="social-icon"><i class="ri-instagram-line"></i></a>
+                    <a href="#" class="social-icon"><i class="ri-pinterest-line"></i></a>
+                    <a href="#" class="social-icon"><i class="ri-twitter-line"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__bottom">
+            <p>&copy; 2024 Encanto Lingerie. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript para o menu -->
+    <script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+        var navList = document.getElementById('nav-list');
+        navList.classList.toggle('active');
+    });
+</script>
+<script>
+// script.js
+
+const rosePetalsContainer = document.querySelector('.rose-petals');
+const maxPetals = 30; // Número máximo de pétalas visíveis na tela
+
+function createRosePetal() {
+    if (rosePetalsContainer.children.length >= maxPetals) {
+        // Remove a pétala mais antiga se o número máximo for atingido
+        rosePetalsContainer.removeChild(rosePetalsContainer.firstChild);
+    }
+
+    const petal = document.createElement('div');
+    petal.classList.add('rose-petal');
+    petal.style.left = `${Math.random() * 100}vw`; 
+    petal.style.top = `${Math.random() * 100}vh`; 
+    petal.style.animationDuration = `${Math.random() * 5 + 5}s`; 
+    petal.style.opacity = Math.random(); 
+    rosePetalsContainer.appendChild(petal);
+
+    // Remover a pétala após a animação para evitar acúmulo de elementos no DOM
+    petal.addEventListener('animationend', () => {
+        petal.remove();
+    });
+}
+
+// Criar pétalas na inicialização
+for (let i = 0; i < maxPetals; i++) {
+    createRosePetal();
+}
+
+// Criar novas pétalas em intervalos regulares
+setInterval(createRosePetal, 1500); 
+
+</script>
+
+</body>
+</html>
